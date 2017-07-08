@@ -1,11 +1,11 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
-    (links 23)
+    (links 0)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 134.724999 78.224999 167.275001 115.775)
     (thickness 1.6)
-    (drawings 32)
+    (drawings 37)
     (tracks 151)
     (zones 0)
     (modules 6)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -33,11 +33,11 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.2)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
@@ -65,7 +65,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFCFFFF)
+    (visible_elements 7FFCFF7F)
     (pcbplotparams
       (layerselection 0x02cc0_80000001)
       (usegerberextensions true)
@@ -383,6 +383,13 @@
       (net 9 /MOUSE_9))
   )
 
+  (gr_arc (start 157.25 86.25) (end 157.25 85.5) (angle 90) (layer Margin) (width 0.2))
+  (gr_arc (start 144.75 86.25) (end 144 86.25) (angle 90) (layer Margin) (width 0.2))
+  (gr_arc (start 144.75 112.75) (end 144.75 113.5) (angle 90) (layer Margin) (width 0.2))
+  (gr_arc (start 157.25 112.75) (end 158 112.75) (angle 90) (layer Margin) (width 0.2))
+  (gr_text "ps2m TOP" (at 151 112) (layer F.Cu)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text P1 (at 150.5 90) (layer Eco1.User) (tstamp 595F73D0)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -423,10 +430,10 @@
   (gr_line (start 149.1 93.6) (end 152.8 93.6) (layer Eco2.User) (width 0.2))
   (gr_line (start 148.2 92.7) (end 149.1 93.6) (layer Eco2.User) (width 0.2))
   (gr_line (start 148.2 86.3) (end 148.2 92.7) (layer Eco2.User) (width 0.2))
-  (gr_line (start 144 113.5) (end 158 113.5) (layer Margin) (width 0.2))
-  (gr_line (start 144 85.5) (end 158 85.5) (layer Margin) (width 0.2))
-  (gr_line (start 144 113.5) (end 144 85.5) (layer Margin) (width 0.2))
-  (gr_line (start 158 113.5) (end 158 85.5) (layer Margin) (width 0.2))
+  (gr_line (start 144.75 113.5) (end 157.25 113.5) (layer Margin) (width 0.2))
+  (gr_line (start 144.75 85.5) (end 157.25 85.5) (layer Margin) (width 0.2))
+  (gr_line (start 144 112.75) (end 144 86.25) (layer Margin) (width 0.2))
+  (gr_line (start 158 112.75) (end 158 86.25) (layer Margin) (width 0.2))
 
   (segment (start 151.4 91.8) (end 152.7 90.5) (width 0.3) (layer B.Cu) (net 1))
   (segment (start 150.656421 92.543579) (end 151.4 91.8) (width 0.3) (layer F.Cu) (net 1))
