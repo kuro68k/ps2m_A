@@ -35,4 +35,3 @@ SMD_pads					no part
 SMD-pad						no part
 
 QC6CB_7A_ABM7				QC6CB/7A/ABM7 crystals
-Coda_RA4S_Pogo_Socket_1.7mm_hole	1.7mm plated hole
