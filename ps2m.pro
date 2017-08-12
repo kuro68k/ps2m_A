@@ -1,4 +1,4 @@
-update=05/07/2017 16:14:49
+update=06/08/2017 12:28:34
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=microchip_pic16mcu
 LibName31=kuro68k/kuro
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
